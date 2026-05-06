@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Mae Bercasio - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sarah Mae</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-neon-lines-in-motion-12166-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <div class="profile-image">
+                    <img src="https://i.imgur.com/4oVimlK.png" alt="Sarah Mae Bercasio" loading="lazy">
+                </div>
+            </div>
+            <h1 class="hero-title">SARAH MAE SAN JUAN BERCASIO</h1>
+            <p class="hero-subtitle" id="typing-text"></p>
+            <a href="#about" class="cta-button">
+                <span>Discover More</span>
+                <div class="button-glow"></div>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://i.imgur.com/4oVimlK.png" alt="Sarah Mae Bercasio" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am <span class="highlight">Sarah Mae San Juan Bercasio</span>. I was born on May 3, 2007 in Tignoan, Real, Quezon. I currently live in Purok 7, Tignoan, Real, Quezon.</p>
+                    <p>I am 18 years old and an <span class="highlight">Accountancy student</span> at Laguna University. I am passionate about learning and improving my skills in accounting and business.</p>
+                    <div class="personal-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="18">0</span>
+                            <span class="stat-label">Years Old</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="1">0</span>
+                            <span class="stat-label">University Year</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Core Skills</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Basic Accounting</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Bookkeeping</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h3>Microsoft Excel</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Communication</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="88"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Management</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sarahmaebercasio537@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Purok 7, Tignoan, Real, Quezon</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>Born: May 3, 2007</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <div class="input-glow"></div>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                        <div class="button-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sarah Mae San Juan Bercasio. Future CPA.</p>
+            <button class="back-to-top" id="backToTop">
+                <i class="fas fa-chevron-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
